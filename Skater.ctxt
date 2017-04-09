@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Skater
+comment0.text=\r\n\ Skater\ class\ includes\ the\ personal\ data\ of\ a\ single\ contestant,\ using\ an\ array\r\n\ list\ to\ contain\ the\ distances\ the\ contestant\ will\ participate\ in.\r\n\r\n\ @author\:\ \ \ \ \ Kevin\ Veldman\r\n\ @version\:\ \ \ \ 1.0\r\n\ @email\:\ \ \ \ \ \ me@kevinpv.com\r\n
+comment1.params=skaterName
+comment1.target=Skater(java.lang.String)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Skater\r\n
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment3.params=distance\ time
+comment3.target=void\ setTime(int,\ int)
+comment4.params=distance
+comment4.target=void\ getPoints(int)
+comment5.params=distance
+comment5.target=int\ getTime(int)
+comment6.params=
+comment6.target=double\ getTotalPoints()
+numComments=7
