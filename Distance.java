@@ -16,25 +16,21 @@ public class Distance
     /**
      * Constructor for objects of class Distance
      */
-    public Distance(int newDistance)
+    public Distance(int newDistance, int newTime)
     {
         // initialise instance variables
         distance = newDistance;
+        time = newTime;
+        
     }
 
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public void setTime(int newTime)
-    {
-        time = newTime;
-    }
+    
     public int getTime()
     {
         return time;
+    }
+    public int getDistance(){
+        return distance;
     }
     public double getPoints(boolean getReturn)
     {

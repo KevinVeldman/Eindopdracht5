@@ -119,7 +119,8 @@ public class Scoreboard
      * Uses the total points methods to calculate the overall winner of the tournament.
      */
     public void getOverallWinner(){
-        bestScore = 999999;
+        bestScore = skaters.get(0).getTotalPoints();
+        winnerName = skaters.get(0).getName();
         skatercount = skaters.size();
         for(int x=0; x< skatercount; x++)
         {

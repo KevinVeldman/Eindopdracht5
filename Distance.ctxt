@@ -1,14 +1,13 @@
 #BlueJ class context
 comment0.target=Distance
 comment0.text=\r\n\ Distance\ class\ includes\ the\ time\ and\ distance\ a\ contestant\ has.\ It\ is\r\n\ also\ used\ to\ calculate\ scores.\r\n\r\n\ @author\:\ \ \ \ \ Kevin\ Veldman\r\n\ @version\:\ \ \ \ 1.0\r\n\ @email\:\ \ \ \ \ \ me@kevinpv.com\r\n
-comment1.params=newDistance
-comment1.target=Distance(int)
+comment1.params=newDistance\ newTime
+comment1.target=Distance(int,\ int)
 comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Distance\r\n
-comment2.params=newTime
-comment2.target=void\ setTime(int)
-comment2.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\r\n\ @param\ \ y\ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ the\ sum\ of\ x\ and\ y\r\n
+comment2.params=
+comment2.target=int\ getTime()
 comment3.params=
-comment3.target=int\ getTime()
+comment3.target=int\ getDistance()
 comment4.params=getReturn
 comment4.target=double\ getPoints(boolean)
 comment5.params=time
